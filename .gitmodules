@@ -1,0 +1,30 @@
+[submodule "scroll-loader"]
+	path = scroll-loader
+	url = git://github.com/cpojer/scroll-loader.git
+[submodule "event-stack"]
+	path = event-stack
+	url = git://github.com/cpojer/event-stack.git
+[submodule "dynamic-matcher"]
+	path = dynamic-matcher
+	url = git://github.com/cpojer/mootools-dynamic-matcher.git
+[submodule "custom-event"]
+	path = custom-event
+	url = git://github.com/cpojer/mootools-custom-event.git
+[submodule "mobile"]
+	path = mobile
+	url = git://github.com/cpojer/mootools-mobile.git
+[submodule "class-extras"]
+	path = class-extras
+	url = git://github.com/cpojer/mootools-class-extras.git
+[submodule "form-autogrow"]
+	path = form-autogrow
+	url = git://github.com/cpojer/mootools-form-autogrow.git
+[submodule "form-placeholder"]
+	path = form-placeholder
+	url = git://github.com/cpojer/mootools-form-placeholder.git
+[submodule "tree"]
+	path = tree
+	url = git://github.com/cpojer/mootools-tree.git
+[submodule "history"]
+	path = history
+	url = git://github.com/cpojer/mootools-history.git
