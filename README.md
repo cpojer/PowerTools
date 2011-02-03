@@ -6,7 +6,7 @@ PowerTools! for MooTools brings powerful low-level Plugins to speed up the devel
 Download & Demos
 ----------------
 
-http://cpojer.net/PowerTools
+[http://cpojer.net/PowerTools](http://cpojer.net/PowerTools)
 
 Included Components
 -------------------
