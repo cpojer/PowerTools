@@ -1,0 +1,6 @@
+# There is an issue with packager and packages with the same foldern name, use a trick with a different directory
+mkdir tmp
+cd tmp
+packager build Custom-Event/* Mobile/* Class-Extras/* History/* Form-AutoGrow/* Form-Placeholder/* DynamicMatcher/* EventStack/* ScrollLoader/* Tree/* Interface/* +use-only Custom-Event Mobile Class-Extras History Form-AutoGrow Form-Placeholder DynamicMatcher EventStack ScrollLoader Tree Interface
+cd ..
+rmdir tmp
