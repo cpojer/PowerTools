@@ -28,3 +28,6 @@
 [submodule "history"]
 	path = history
 	url = git://github.com/cpojer/mootools-history.git
+[submodule "interface"]
+	path = interface
+	url = git://github.com/cpojer/mootools-interface.git
