@@ -3,10 +3,17 @@ MooTools PowerTools!
 
 PowerTools! for MooTools brings powerful low-level Plugins to speed up the development of JavaScript-heavy web applications.
 
-Download & Demos
+Download, Build and Demos
 ----------------
 
-[http://cpojer.net/PowerTools](http://cpojer.net/PowerTools)
+* [Demos and Build](http://cpojer.net/PowerTools)
+
+Download
+
+	git clone git://github.com/cpojer/PowerTools.git
+	cd PowerTools
+	./update
+
 
 Included Components
 -------------------
