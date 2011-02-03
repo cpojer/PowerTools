@@ -1,0 +1,7 @@
+REMOTE=$1
+if [ -z "$REMOTE" ] ; then
+	REMOTE="origin"
+fi
+
+git pull --rebase $REMOTE master
+git submodule update --init --recursive
