@@ -1,6 +1,20 @@
-# There is an issue with packager and packages with the same foldern name, use a trick with a different directory
-mkdir tmp
-cd tmp
-packager build Custom-Event/* Mobile/* Class-Extras/* History/* Form-AutoGrow/* Form-Placeholder/* DynamicMatcher/* EventStack/* ScrollLoader/* Tree/* Interface/* +use-only Custom-Event Mobile Class-Extras History Form-AutoGrow Form-Placeholder DynamicMatcher EventStack ScrollLoader Tree Interface
-cd ..
-rmdir tmp
+#!/bin/bash
+
+PACKAGES='Custom-Event Mobile Class-Extras History Form-AutoGrow Form-Placeholder DynamicMatcher EventStack ScrollLoader Tree Interface'
+PACKAGER=$1
+
+if [ -z "$PACKAGER" ]; then
+	PACKAGER=$(which packager || echo './packager')
+fi
+
+if [ ! -x "$PACKAGER" ]; then
+	echo "Usage: $0 [packager]"
+	echo
+	echo 'arguments:'
+	echo '  packager    Path to packager executable. If not given, it tries to find'
+	echo '              packager in your $PATH, then in your current working directory.'
+	exit 1
+fi
+
+COMPONENTS=$(echo $PACKAGES | sed "s/\([^ ]*\)/'\1\/*'/g")
+bash -c "$PACKAGER build $COMPONENTS +use-only $PACKAGES"

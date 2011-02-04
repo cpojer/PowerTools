@@ -1,7 +1,10 @@
+#!/bin/bash
+
+DIR=$(dirname "$0")
 REMOTE=$1
-if [ -z "$REMOTE" ] ; then
-	REMOTE="origin"
+
+if [ -z "$REMOTE" ]; then
+	REMOTE='origin'
 fi
 
-git pull --rebase $REMOTE master
-git submodule update --init --recursive
+bash -c "cd '$DIR' && git pull --rebase '$REMOTE' master && git submodule update --init --recursive"

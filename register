@@ -1,1 +1,19 @@
-find . -maxdepth 1 -type d ! -name '.' ! -name '.git' -exec ./packager register {} \;
+#!/bin/bash
+
+DIR=$(dirname "$0")
+PACKAGER=$1
+
+if [ -z "$PACKAGER" ]; then
+	PACKAGER=$(which packager || echo './packager')
+fi
+
+if [ ! -x "$PACKAGER" ]; then
+	echo "Usage: $0 [packager]"
+	echo
+	echo 'arguments:'
+	echo '  packager    Path to packager executable. If not given, it tries to find'
+	echo '              packager in your $PATH, then in your current working directory.'
+	exit 1
+fi
+
+find "$DIR" -maxdepth 1 -type d ! -name "$(basename "$DIR")" ! -name '.*' -exec "$PACKAGER" register {} \;
