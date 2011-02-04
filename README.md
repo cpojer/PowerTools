@@ -25,6 +25,7 @@ Included Components
 * [DynamicMatcher](https://github.com/cpojer/mootools-dynamic-matcher)
 * [Form-Placeholder](https://github.com/cpojer/mootools-form-placeholder)
 * [Form-AutoGrow](https://github.com/cpojer/mootools-form-autogrow)
+* [Element-Wait](https://github.com/cpojer/element-wait)
 * [Event-Stack](https://github.com/cpojer/event-stack)
 * [Scroll-Loader](https://github.com/cpojer/scroll-loader)
 * [Tree](https://github.com/cpojer/mootools-tree)

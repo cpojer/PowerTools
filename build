@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PACKAGES='Custom-Event Mobile Class-Extras History Form-AutoGrow Form-Placeholder DynamicMatcher EventStack ScrollLoader Tree Interface'
+PACKAGES='Custom-Event Mobile Class-Extras History Form-AutoGrow Form-Placeholder DynamicMatcher Element-Wait EventStack ScrollLoader Tree Interface'
 PACKAGER=$1
 
 if [ -z "$PACKAGER" ]; then
