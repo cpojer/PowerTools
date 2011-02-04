@@ -33,12 +33,12 @@ Included Components
 Build
 -----
 
-Build via [Packager](http://github.com/kamicane/packager). Requires packager to be globally available.
+Build via [Packager](http://github.com/kamicane/packager).
 
 	./register
-	./build > powertools.js
+	./build <path/to/packager> > powertools.js
 
-This builds all of PowerTools! and puts the contents into 'powertools.js'. Alternatively you can also ./register all parts of PowerTools! and then build them manually. For more information on this see the repositories of each component.
+This builds all of PowerTools! and puts the contents into 'powertools.js'. Alternatively you can also ./register all parts of PowerTools! and then build them manually. For more information on this see the repository of each component you want to build. If your packager executable is in your PATH you do not have to specify it manually.
 
 Update all repositories
 
