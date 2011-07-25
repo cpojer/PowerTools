@@ -31,4 +31,6 @@
 [submodule "interface"]
 	path = interface
 	url = git://github.com/cpojer/mootools-interface.git
-
+[submodule "mootilities"]
+	path = mootilities
+	url = git://github.com/cpojer/mootilities.git
