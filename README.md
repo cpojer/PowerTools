@@ -22,6 +22,7 @@ Included Components
 * [Mobile](https://github.com/cpojer/mootools-mobile)
 * [Class-Extras](https://github.com/cpojer/mootools-class-extras)
 * [History](https://github.com/cpojer/mootools-history)
+* [History](https://github.com/cpojer/mootools-router)
 * [DynamicMatcher](https://github.com/cpojer/mootools-dynamic-matcher)
 * [Mootilities](https://github.com/cpojer/mootilities)
 * [Form-Placeholder](https://github.com/cpojer/mootools-form-placeholder)

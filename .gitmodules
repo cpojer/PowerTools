@@ -34,3 +34,6 @@
 [submodule "mootilities"]
 	path = mootilities
 	url = git://github.com/cpojer/mootilities.git
+[submodule "router"]
+	path = router
+	url = git://github.com/cpojer/mootools-router.git
